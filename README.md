@@ -1,11 +1,12 @@
 # FridayBot
-FridayBot is a Scrapy web scraping tool, and allow users custom the caraping method by conneting the database.
+FridayBot is a Scrapy web scraping tool, and allow users custom the scraping method by conneting the database.
 
 ## Features
 - Schedule the scraping task
 - Customizable the scraping method
 - Scraping save point
 - PDF detect
+- Email notification when detect the latest news
 
 
 ## Installation
