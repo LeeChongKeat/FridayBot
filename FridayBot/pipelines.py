@@ -13,7 +13,7 @@ from .database.db import db
 from scrapy.mail import MailSender
 
 
-class ChongkeatPipeline:
+class FridayBOTPipeline:
     def __init__(self):
         self.create_connection()
         pass

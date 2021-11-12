@@ -6,7 +6,7 @@
 import scrapy
 
 
-class ChongkeatItem(scrapy.Item):
+class FridayBOTItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     #             "url": response.url,

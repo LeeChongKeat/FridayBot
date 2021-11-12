@@ -2,7 +2,7 @@ import scrapy
 import sys
 import json
 from bs4 import BeautifulSoup
-from ..items import ChongkeatItem
+from ..items import FridayBOTItem
 from ..database.db import db
 from ..email.email import email
 
@@ -90,7 +90,7 @@ class FridaybotSpider(scrapy.Spider):
                     pdf_link = url
 
             if is_list == 0 and db.check_title(self, response.url):
-                items = ChongkeatItem()
+                items = FridayBOTItem()
                 items['spiderId'] = current_item[0]
                 items['url'] = response.url
                 items['title'] = title_article

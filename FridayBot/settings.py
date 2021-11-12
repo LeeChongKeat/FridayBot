@@ -51,13 +51,13 @@ CONCURRENT_REQUESTS = 1
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'FridayBot.middlewares.ChongkeatSpiderMiddleware': 543,
+#    'FridayBot.middlewares.FridayBOTSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'FridayBot.middlewares.ChongkeatDownloaderMiddleware': 543,
+    'FridayBot.middlewares.FridayBOTDownloaderMiddleware': 543,
 }
 
 # Enable or disable extensions
@@ -69,7 +69,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'FridayBot.pipelines.ChongkeatPipeline': 300,
+    'FridayBot.pipelines.FridayBOTPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
